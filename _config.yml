@@ -1,0 +1,29 @@
+title: Barnabás Bakucz
+name: Barnabás Bakucz
+description: Personal academic website
+url: ""
+baseurl: ""
+google-site-verification: google89fc9aea81aa58f0.html
+
+author:
+  name: Barnabás Bakucz
+  title: "Ph.D. Candidate"
+  institution: "Norwegian School of Economics"
+  location: "Bergen, Norway"
+  email: "barnabas.bakucz@nhh.no"
+  github: "barnabas-bakucz"
+  # google_scholar: ""
+  # twitter: ""
+  linkedin: "https://www.linkedin.com/in/barnabas-bakucz"
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+plugins:
+  - jekyll-seo-tag
